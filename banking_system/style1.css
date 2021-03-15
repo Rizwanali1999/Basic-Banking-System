@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    background-color: rgb(59, 163, 163);
+    padding: 10px;
+    margin: auto;
+}
+.container h3 , p{
+    text-align: center;
+}
+ input{
+     display: block;
+     border: 2px solid black;
+     border-radius: 10px;
+     outline: none;
+     font-size: 20px;
+     width: 80%;
+     margin: 0px auto;
+     margin-bottom: 15px;
+     margin-top: 0px;
+     padding: 7px;
+ }
+ label{
+    display: block;
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto;
+ }
+ 
+.btn{
+      width: 200px;
+     color: white;
+     background-color: rgb(10, 58, 58);
+     padding: 8px 10px;
+     font-size: 20px;
+     border-radius: 15px;
+     cursor: pointer;
+ }
+.submitMsg{
+    font-size: 25px;
+    color:black;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+     float: right;
+     list-style-type: none;
+     margin-top: 25px;
+}
+ ul li{
+     display: inline-block;
+ }
+ ul li a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     border-radius: 5px;
+ }
+ ul li a:hover{
+     background-color: #ffffff;
+     color: rgb(35, 155, 155);
+ }
+ .logo img{
+     float:left;
+     width: 75px;
+     height: auto;
+     margin-left: 20px;
+ }
+.content{
+    color: rgb(255, 255, 255);
+    font: 2em sans-serif;
+}
+.welcome{
+    color: rgb(246, 250, 250);
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color:rgba(15, 14, 14, 0.4);
+    font: 1.3em sans-serif;
+    overflow:auto;
+}
+.img1{
+    height: 260px;
+    width: 450px;
+    float:right;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    overflow: auto;
+}
+.operator{
+    margin: 30px;
+    padding: 20px;
+    float: left;
+    width: 300px;
+    align-items: center;
+    align-content: center;
+}
+.button{
+    margin-left: 50px;
+    background-color: white;
+    color:  rgb(13, 126, 126);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button:hover{
+    color:white;
+    background-color: rgb(13, 126, 126);
+}

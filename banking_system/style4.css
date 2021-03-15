@@ -1,0 +1,67 @@
+body{
+    background-color:rgba(64, 224, 208 ,0.6);
+    z-index: 1;
+}
+input{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: 7px;
+}
+label{
+    font-size: 3em;
+   display: block;
+   font-size: 20px;
+   width: 40%;
+   margin: 0px auto;
+}
+.container h1{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+   color: white;
+   background-color: rgb(10, 58, 58);
+   padding: 8px 10px;
+   font-size: 20px;
+   border-radius: 15px;
+   cursor: pointer;
+   margin-left: 650px;
+   float: left;
+}
+.btn:hover{
+    background-color: rgb(10, 58, 58);
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden ;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.4);
+    width: 700px;
+    background-color: white;
+}
+.transaction-table tr th{
+    background-color: #085848e5;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    
+}
+.transaction-table td , th{
+    padding: 5px 5px;
+}
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.3) ;
+}
+
+tr:last-child{
+    border-bottom: 4px solid #085848e5 ;
+}
